@@ -3,6 +3,6 @@
 #tangente desse ângulo.
 
 
-from math import cos, asin, atan, radians
+from math import cos, sin, tan, radians
 angulo = float((input('Digite o valor do ângulo: ')))
-print(f'O ângulo de {angulo} tem o SENO = {cos(radians(angulo)):.2f} / COSSENO = {asin(radians(angulo)):.2f} / TANGENTE = {atan(radians(angulo)):.2f}')
+print(f'O ângulo de {angulo} tem o SENO = {cos(radians(angulo)):.2f} / COSSENO = {sin(radians(angulo)):.2f} / TANGENTE = {tan(radians(angulo)):.2f}')
