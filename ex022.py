@@ -7,8 +7,11 @@
 
 """
 
-nome = 'Gichin Funakoshi'
+nome = str(input('Digite um nome completo: ')).strip()
+espaco = nome.count(' ')
+primeiro = nome.find(' ')
 
 print(f'Exemplo1 -> {nome.upper()}')
 print(f'Exemplo2 -> {nome.lower()}')
-print(f'Exemplo3 -> {len(nome):}')
+print(f'Nome contém total caracteres: {len(nome)} e sem espacos: {len(nome) - espaco} letras')
+print(f'Primeiro nome contém total de caracteres: {primeiro} letras')
