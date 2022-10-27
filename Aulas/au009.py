@@ -1,5 +1,4 @@
 frase = 'Clube de Regatas do Flamengo'
-
 #Fatiamentos
 
 """
@@ -39,4 +38,23 @@ exemplo = print(frase.find('r'))
 """
 Comando REPLACE -> Usado para substituir uma frase dentro da lista
 exemplo = print(frase.replace('Flamengo', 'Mengão'))
+
+Comando STRIP -> Remove todo espaco digite do comeco e final da frase
+variaveis (r)STRIP -> Remove os espacos do final
+          (l)STRIP -> Remove os espacos do comeco
+exemplo = print()
+"""
+
+#Divisão
+
+"""
+Comando SPLIT -> Divide as frases por cada espaco que ela contém
+exemplo = print(frase.split())
+"""
+
+#Juncão
+
+"""
+Comando JOIN -> Usando para adicionar algo na frase
+exemplo = print('-'.join(frase))
 """
