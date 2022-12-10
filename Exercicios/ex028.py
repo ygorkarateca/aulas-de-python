@@ -4,9 +4,12 @@
 #escrever na tela se o usuário venceu ou perdeu.
 
 from random import randint
+from time import sleep
 
 num = randint(0, 10)
 play = int(input('Escolha um número para advinhar: '))
+print('Processando....')
+sleep(2)
 
 if play == num:
     print(f'Você ganhou! - Número escolhido pelo computador foi = {num}')
