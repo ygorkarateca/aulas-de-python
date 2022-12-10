@@ -6,10 +6,9 @@
 from random import randint
 
 num = randint(0, 10)
-jogador = int(input('Escolha um número para advinhar: '))
-print(num)
+play = int(input('Escolha um número para advinhar: '))
 
-if num == jogador:
-    print('Você ganhou!')
+if play == num:
+    print(f'Você ganhou! - Número escolhido pelo computador foi = {num}')
 else:
-    print('Você perdeu!')
+    print(f'Você perdeu! - Número escolhido pelo computador foi = {num}')
